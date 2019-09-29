@@ -1,0 +1,41 @@
+<html>
+<head>
+                <script src="validate.js" ></script>
+                <link rel="stylesheet" href="participant_enrollment.css">
+</head>
+<body>
+                <h3>Participant Enrollment</h3>
+  <table>             
+<div>
+<form action="#" name="ParticipantRegistration" onsubmit="return(validate());">
+
+
+    <tr>
+    <td><label>Particpant ID </label></td>
+      <td><input type=number name=participantId id="particpantId" pattern="[0-9]{2,}"><td>
+      </tr>
+        
+<tr>
+<td><label>Name </label></td>
+<td><input type=text name=textnames id="textname" pattern="[A-Za-z]{3}" ></td>
+</tr>
+<tr>
+<td><label>Training Program </label></td>
+<td><select name="Course">
+<option value="-1" selected>select..</option>
+<option value="DotNet">DOTNET</option>
+<option value="Java">JAVA</option>
+<option value="Oracle">ORACLE</option>
+<option value="SAP">SAP</option>
+</select></td>
+</tr>
+<tr>
+
+<td><input type="submit" value="Submit" /></td>
+</tr>
+
+</form>
+</table>
+</div>
+</body>
+</html>
