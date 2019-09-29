@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+body{
+    background-color: lightgray;
+}
+
+h2{
+    color: darkslategray;
+    text-align: center;
+}
+
+table{
+   align-content: center;
+   align-items: center;
+}
